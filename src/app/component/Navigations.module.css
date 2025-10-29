@@ -1,0 +1,62 @@
+/* Navigations.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9fafb;
+    padding: 1rem 2rem;
+  }
+  
+  .navLinks button {
+    background: none;
+    border: none;
+    color: #f9fafb;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .navLinks button:hover {
+    color: #3b82f6;
+  }
+  
+  .authActions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .authActions h1 {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  .authButton {
+    background-color: #3b82f6;
+    color: #f9fafb;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .authButton:hover {
+    background-color: #2563eb;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f3f4f6;
+    color: #111827;
+  }
+  
